@@ -4,89 +4,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jagdish Motors Garage</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background: #f2f2f2;
+            color: #222;
             text-align: center;
         }
 
         header {
-            background: #222;
+            background: #171717;
             color: white;
-            padding: 25px;
+            padding: 25px 10px;
         }
 
         header h1 {
-            color: red;
+            color: #ff2929;
+            font-size: 28px;
+        }
+
+        header p {
+            font-size: 16px;
         }
 
         .hero {
-            background: #333;
+            background: linear-gradient(135deg, #222, #555);
             color: white;
-            padding: 50px 15px;
+            padding: 55px 15px;
         }
 
         .hero h2 {
-            font-size: 30px;
+            font-size: 28px;
+        }
+
+        .hero p {
+            font-size: 17px;
         }
 
         .services {
-            padding: 25px;
+            padding: 25px 15px;
+        }
+
+        .services h2 {
+            color: #d71920;
         }
 
         .service {
             background: white;
-            margin: 10px auto;
-            padding: 15px;
-            max-width: 300px;
+            padding: 18px;
+            margin: 12px auto;
+            max-width: 350px;
             border-radius: 10px;
+            box-shadow: 0 2px 7px #ccc;
+            font-size: 17px;
+        }
+
+        .service:hover {
+            background: #ffe6e6;
+        }
+
+        .about {
+            background: white;
+            padding: 25px 15px;
+        }
+
+        .location {
+            padding: 25px 15px;
+            background: #eee;
+        }
+
+        .location h2 {
+            color: #d71920;
+        }
+
+        .timing {
+            background: white;
+            padding: 25px 15px;
+        }
+
+        .visit {
+            background: #d71920;
+            color: white;
+            padding: 30px 15px;
         }
 
         footer {
-            background: #222;
+            background: #171717;
             color: white;
-            padding: 20px;
+            padding: 25px 10px;
+        }
+
+        footer h3 {
+            color: #ff2929;
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <h1>JAGDISH MOTORS GARAGE</h1>
-    <p>Your Ride, Our Responsibility!</p>
-</header>
+    <header>
+        <h1>JAGDISH MOTORS GARAGE</h1>
+        <p>Your Ride, Our Responsibility!</p>
+    </header>
 
-<section class="hero">
-    <h2>Welcome to Jagdish Motors Garage</h2>
-    <p>Your Trusted Car Repair Service</p>
-    <p>Quality Service | Expert Mechanics</p>
-</section>
+    <section class="hero">
+        <h2>Welcome to Jagdish Motors Garage</h2>
+        <p>Your Trusted Car Repair Service</p>
+        <p>Quality Service | Expert Mechanics</p>
+    </section>
 
-<section class="services">
-    <h2>Our Services</h2>
+    <section class="services">
+        <h2>OUR SERVICES</h2>
 
-    <div class="service">🚗 Oil Change</div>
-    <div class="service">🔧 Engine Repair</div>
-    <div class="service">🛠️ Brake Repair</div>
-    <div class="service">❄️ AC & Heating</div>
-    <div class="service">👨‍🔧 Expert Mechanics</div>
-</section>
+        <div class="service">
+            🚗 Oil Change
+        </div>
 
-<section>
-    <h2>Opening Hours</h2>
-    <p>Every Day: 9:00 AM</p>
-</section>
+        <div class="service">
+            🔧 Engine Repair
+        </div>
 
-<footer>
-    <h3>Jagdish Motors Garage</h3>
-    <p>Your Ride, Our Responsibility!</p>
-    <p>Visit Us Today!</p>
-</footer>
+        <div class="service">
+            🛠️ Brake Repair
+        </div>
+
+        <div class="service">
+            ❄️ AC & Heating
+        </div>
+
+        <div class="service">
+            👨‍🔧 Expert Mechanics
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>ABOUT US</h2>
+        <p>
+            Jagdish Motors Garage provides
+            quality car repair services with
+            expert mechanics and reliable work.
+        </p>
+    </section>
+
+    <section class="timing">
+        <h2>OPENING HOURS</h2>
+        <p>Every Day</p>
+        <h3>9:00 AM</h3>
+    </section>
+
+    <section class="location">
+        <h2>📍 OUR LOCATION</h2>
+        <p>Near Bus Stand, Malout, Punjab</p>
+        <p>Must Visit Us!</p>
+    </section>
+
+    <section class="visit">
+        <h2>VISIT US TODAY!</h2>
+        <p>Your Car, Our Responsibility!</p>
+    </section>
+
+    <footer>
+        <h3>Jagdish Motors Garage</h3>
+        <p>Your Ride, Our Responsibility!</p>
+        <p>📍 Near Bus Stand, Malout, Punjab</p>
+        <p>© 2026 All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
